@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ebtesam.myfirstudacity.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cap"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..Congratulation..      ..Graduate .."
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="49dp"
+        android:paddingTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/t1"
+        android:textColor="#FFD600"
+        />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_below="@id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wish you all dreams comes  true, your life is start now "
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="16dp"
+        android:textColor="#FFD600"
+        android:fontFamily="sans-serif-light"
+        />
+    <TextView
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: Ebtesam"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFD600"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
